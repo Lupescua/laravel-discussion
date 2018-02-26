@@ -7,9 +7,10 @@ use Illuminate\Http\Request;
 class QuestionController extends Controller
 {
     public function index() {
-        return view('/questions/index');
+        $view = view('questions/index');
+        return $view;
     }
      public function show() {
-        return 'This is a detail of question';
+        return 'This is a detail of a question';
     }
 }

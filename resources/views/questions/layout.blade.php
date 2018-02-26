@@ -15,10 +15,9 @@
 </head>
 <body>
 
-    <!-- NAVBAR -->
+    @include('questions/navbar')
 
-
-@yield('content')
+    @yield('content')
 
     <!-- FOOTER -->
 

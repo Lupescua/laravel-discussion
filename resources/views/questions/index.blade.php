@@ -1,5 +1,6 @@
-@extends('layout')
+@extends('questions/layout')
 @section('content')
+
 <section id="banner">
     <div class="container">
         <h1>Questions</h1>
