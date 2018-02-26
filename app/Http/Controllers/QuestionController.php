@@ -11,6 +11,8 @@ class QuestionController extends Controller
         return $view;
     }
      public function show() {
-        return 'This is a detail of a question';
+        $view = view('questions/show');
+        return $view;
     }
 }
+
